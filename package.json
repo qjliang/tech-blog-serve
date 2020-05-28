@@ -1,0 +1,40 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon -e ts --exec 'ts-node' index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.13.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^5.0.0-alpha.7",
+    "express-jwt": "^5.3.3",
+    "highlight.js": "^10.0.1",
+    "http-assert": "^1.4.1",
+    "inflection": "^1.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "markdown-it": "^10.0.0",
+    "markdown-it-github-headings": "^1.1.2",
+    "markdown-it-task-lists": "^2.1.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.6",
+    "multer": "^1.4.1",
+    "multer-aliyun-oss": "^1.0.1",
+    "nodemon": "^2.0.2",
+    "require-all": "^3.0.0",
+    "ts-node": "^8.9.1",
+    "typescript": "^3.8.3"
+  }
+}

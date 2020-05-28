@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "outDir": "/dist",
+    "module": "commonjs",
+    "lib": ["esnext", "esnext.asynciterable", "dom"],
+    "moduleResolution": "node", // 决定如何处理模块。设置为 node
+    "sourceMap": true,
+    "strict": false,
+    "noImplicitAny": false,
+    "noEmit": true,
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"]
+    },
+    "types": ["@types/node"],
+    "esModuleInterop": true
+  },
+  "exclude": ["node_modules"]
+}
