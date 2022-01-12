@@ -25,7 +25,7 @@
     "http-assert": "^1.4.1",
     "inflection": "^1.12.0",
     "jsonwebtoken": "^8.5.1",
-    "markdown-it": "^10.0.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-github-headings": "^1.1.2",
     "markdown-it-task-lists": "^2.1.1",
     "moment": "^2.24.0",
